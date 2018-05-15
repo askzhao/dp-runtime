@@ -9,7 +9,7 @@ import org.aspectj.lang.annotation.Pointcut;
 public class TrackViewOnClickAspectj {
     private final static String TAG = TrackViewOnClickAspectj.class.getCanonicalName();
 
-    @Pointcut("execution(@com.askzhao.analytics.android.sdk.TrackViewOnClick * *(..))")
+    @Pointcut("execution(@com.askzhao.dp.android.sdk.aop.TrackViewOnClick * *(..))")
     public void methodAnnotatedWithTrackEvent() {
     }
 

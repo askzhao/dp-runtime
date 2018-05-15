@@ -10,7 +10,7 @@ import org.aspectj.lang.annotation.Pointcut;
 public class TrackEventAspectj {
     private final static String TAG = TrackEventAspectj.class.getCanonicalName();
 
-    @Pointcut("execution(@com.askzhao.analytics.android.sdk.TrackEvent * *(..))")
+    @Pointcut("execution(@com.askzhao.dp.android.sdk.TrackEvent * *(..))")
     public void methodAnnotatedWithTrackEvent() {
     }
 

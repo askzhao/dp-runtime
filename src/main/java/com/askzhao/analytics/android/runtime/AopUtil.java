@@ -18,7 +18,7 @@ public class AopUtil {
             }
 
             if (clazz == null) {
-                clazz = Class.forName("com.askzhao.analytics.android.sdk.RuntimeBridge");
+                clazz = Class.forName("com.askzhao.dp.android.sdk.RuntimeBridge");
             }
             if (clazz == null) {
                 return;
@@ -54,7 +54,7 @@ public class AopUtil {
             }
 
             if (clazz == null) {
-                clazz = Class.forName("com.askzhao.analytics.android.sdk.RuntimeBridge");
+                clazz = Class.forName("com.askzhao.dp.android.sdk.RuntimeBridge");
             }
             if (clazz == null) {
                 return;
@@ -90,7 +90,7 @@ public class AopUtil {
             }
 
             if (clazz == null) {
-                clazz = Class.forName("com.askzhao.analytics.android.sdk.RuntimeBridge");
+                clazz = Class.forName("com.askzhao.dp.android.sdk.RuntimeBridge");
             }
             if (clazz == null) {
                 return;

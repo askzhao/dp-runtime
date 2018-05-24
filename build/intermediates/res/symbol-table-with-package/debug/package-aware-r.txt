@@ -1,1 +1,1 @@
-com.sensorsdata.analytics.android.runtime
+com.askzhao.analytics.android.runtime

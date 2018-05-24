@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/zhaochuang/StudioProjects/dp-runtime/src/main/AndroidManifest.xml:1:1-64
-INJECTED from /Users/zhaochuang/StudioProjects/dp-runtime/src/main/AndroidManifest.xml:1:1-64
-INJECTED from /Users/zhaochuang/StudioProjects/dp-runtime/src/main/AndroidManifest.xml:1:1-64
+ADDED from /Users/zhaochuang/StudioProjects/dp-runtime/src/main/AndroidManifest.xml:1:1-60
+INJECTED from /Users/zhaochuang/StudioProjects/dp-runtime/src/main/AndroidManifest.xml:1:1-60
+INJECTED from /Users/zhaochuang/StudioProjects/dp-runtime/src/main/AndroidManifest.xml:1:1-60
 	package
-		ADDED from /Users/zhaochuang/StudioProjects/dp-runtime/src/main/AndroidManifest.xml:1:11-62
+		ADDED from /Users/zhaochuang/StudioProjects/dp-runtime/src/main/AndroidManifest.xml:1:11-58
 		INJECTED from /Users/zhaochuang/StudioProjects/dp-runtime/src/main/AndroidManifest.xml
 		INJECTED from /Users/zhaochuang/StudioProjects/dp-runtime/src/main/AndroidManifest.xml
 uses-sdk

@@ -1,1 +1,1 @@
-com.sensorsdata.analytics.android.runtime.test
+com.askzhao.analytics.android.runtime.test

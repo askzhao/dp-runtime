@@ -4,6 +4,11 @@ import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 
+/**
+ * Created by 王灼洲 on 2016/11/29
+ * Dialog.OnClickListener.onClick 事件
+ */
+
 @Aspect
 public class DialogOnClickAspectj {
     private final static String TAG = DialogOnClickAspectj.class.getCanonicalName();

@@ -6,6 +6,9 @@ import org.aspectj.lang.JoinPoint;
 
 import java.lang.reflect.Method;
 
+/**
+ * Created by 王灼洲 on 2016/12/2
+ */
 
 public class AopUtil {
     private static Class clazz;
@@ -18,7 +21,7 @@ public class AopUtil {
             }
 
             if (clazz == null) {
-                clazz = Class.forName("com.askzhao.dp.android.sdk.RuntimeBridge");
+                clazz = Class.forName("com.askzhao.dp.android.sdk.SensorsDataRuntimeBridge");
             }
             if (clazz == null) {
                 return;
@@ -54,7 +57,7 @@ public class AopUtil {
             }
 
             if (clazz == null) {
-                clazz = Class.forName("com.askzhao.dp.android.sdk.RuntimeBridge");
+                clazz = Class.forName("com.askzhao.dp.android.sdk.SensorsDataRuntimeBridge");
             }
             if (clazz == null) {
                 return;
@@ -90,7 +93,7 @@ public class AopUtil {
             }
 
             if (clazz == null) {
-                clazz = Class.forName("com.askzhao.dp.android.sdk.RuntimeBridge");
+                clazz = Class.forName("com.askzhao.dp.android.sdk.SensorsDataRuntimeBridge");
             }
             if (clazz == null) {
                 return;

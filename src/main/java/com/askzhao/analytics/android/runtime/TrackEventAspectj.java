@@ -5,12 +5,15 @@ import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 
+/**
+ * Created by 王灼洲 on 2017/1/5
+ */
 
 @Aspect
 public class TrackEventAspectj {
     private final static String TAG = TrackEventAspectj.class.getCanonicalName();
 
-    @Pointcut("execution(@com.askzhao.dp.android.sdk.TrackEvent * *(..))")
+    @Pointcut("execution(@com.askzhao.dp.android.sdk.SensorsDataTrackEvent * *(..))")
     public void methodAnnotatedWithTrackEvent() {
     }
 

@@ -4,6 +4,12 @@ import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 
+/**
+ * Created by 王灼洲 on 2016/12/1
+ * android.widget.ExpandableListView.OnChildClickListener.onChildClick
+ * android.widget.ExpandableListView.OnGroupClickListener.onGroupClick
+ */
+
 @Aspect
 public class ExpandableListViewItemOnClickAspectj {
     private final static String TAG = ExpandableListViewItemOnClickAspectj.class.getCanonicalName();

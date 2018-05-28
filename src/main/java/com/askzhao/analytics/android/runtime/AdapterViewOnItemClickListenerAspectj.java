@@ -4,6 +4,10 @@ import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 
+/**
+ * Created by 王灼洲 on 2016/11/16
+ * ListView、GridView onItemClick
+ */
 
 @Aspect
 public class AdapterViewOnItemClickListenerAspectj {

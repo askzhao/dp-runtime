@@ -31,10 +31,11 @@ public class ViewOnClickListenerAspectj {
     public void onViewClickAOP(final JoinPoint joinPoint) throws Throwable {
         AopUtil.sendTrackEventToSDK(joinPoint, "onViewOnClick");
     }
-    @After("execution(* com.fancard.askzhao.dp_sdk_android.OnSingleClickListener.onSingleClick(android.view.View))")
-    public void onViewClickAOP2(final JoinPoint joinPoint) throws Throwable {
-        AopUtil.sendTrackEventToSDK(joinPoint, "onViewOnClick");
-    }
+
+//    @After("execution(* com.fancard.askzhao.dp_sdk_android.OnSingleClickListener.onSingleClick(android.view.View))")
+//    public void onViewClickAOP2(final JoinPoint joinPoint) throws Throwable {
+//        AopUtil.sendTrackEventToSDK(joinPoint, "onViewOnClick");
+//    }
     /**
      * android.view.View.OnLongClickListener.onLongClick(android.view.View)
      *
